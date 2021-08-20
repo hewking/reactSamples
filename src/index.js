@@ -139,5 +139,6 @@ function calculateWinner(squares) {
 
 ReactDOM.render(
   <Game />,
+  // 这里的root 是指 public 文件夹下的 index.html 中的id为root 的元素
   document.getElementById('root')
 );
